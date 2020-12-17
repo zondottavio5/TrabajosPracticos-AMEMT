@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ewk_navbar {
+    background-color: #f2f2f2 !important;
+    font-size: 20px;
+    color: white;
+}
+
+.ewk_hora {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.ewk_cont_sec_1{
+    padding: 2%;
+}
+
+.ewk_cont_sec_1_link {
+    padding: 1%;
+}
+
+.ewk_cont_sec_1_link a {
+    width: 70%;
+    margin-right: 4vw;
+}
+
+.ewk_cont_sec_1 hr {
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+.ewk_cont_sec_2 {
+    margin-top: none;
+    padding: 2%;
+}
+.ewk_cont_sec_2_link {
+    padding: 1%;
+}
+
+.ewk_cont_sec_2_link a {
+    width: 70%;
+    margin-right: 4vw;
+}
+
+
+.ewk_footer {
+    font-size: 15px;
+    background-color: #f2f2f2;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a h5{
+    color: #f2f2f2;
+    background: rgba(1, 1, 1, 0.3)
+} 
+
+a h4, h2{
+    color: black;
+}
+
+a h5:hover {
+    color: black;
+    background-color: rgb(242, 242, 242);
+}
+
+div p {
+    font-size: 18px;
+}
+
+p.parrafo-foto {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2.noticia-deporte-central {
+    text-align: center;
+    width: 100%;
+}
+
+.f-dos {
+    background: #f2f2f2;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-deporte {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    text-align: start;
+}
+
+p.destacado {
+    display: grid;
+    text-align: right;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5.centrar{
+    text-align: center;
+}
+
+
+.letra-gde::first-letter {
+    color: black;
+    font-size: 150%;
+    font: bold;
+    font-family: Arial;
+}
+
+h5 a {
+    color: black;
+}
+
+.letra-fecha {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.color {
+    color: rgb(255, 92, 92);
+}
+
+.margen{
+    margin: 2%;
+}
+
+.padding {
+    padding: 2%;
+}
+
+.texto {
+    fill: blue;
+    text-align: center;
+    text-decoration: lavender;
+    
+}
+
+div div div p:first-letter {
+    font-size: xx-large;
+
+}
+
+.botones {
+    border: solid 2px rgb(255, 92, 92);
+    border-radius: 10%;
+}
+
+
+.botonTabla{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.modalBtn{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+
+/* Modal */
+
+.recuadro {
+    width: 100%;
+    height: auto;
+}
+.card-total {
+    margin: auto;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.items {
+    overflow-y: auto;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+
+
+#btn-add {
+    margin-left: 5%;
+    margin-top: 8px;
+}
+.texto-header {
+    margin: auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-boton {
+    margin: auto;
+    padding: 5px;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+
+.texto-tabla {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.form-modal {
+    margin-top: 4px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnAceptar, #btnCancelar {
+    margin-top: 10px;
+    
+}

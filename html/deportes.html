@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/7 NOTICIAS - DEPORTES</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../images/iconos/css/fontello.css">
+    <link rel="stylesheet" href="../externo/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="ewk_navbar navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/index.html">Inicio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../html/deportes.html">Deportes<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <a class="navbar-brand" href="../html/index.html"><img src="../images/el-portal.jpg"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/entretenimiento.html">Entretenimiento</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../html/mundo.html">Mundo</a>
+                    </li>
+                </ul>
+                <span class="navbar-text ewk_hora">
+                    <script type="text/javascript">
+                        var d = new Date();
+                        var dia = new Array(7);
+                        dia[0] = "Domingo";
+                        dia[1] = "Lunes";
+                        dia[2] = "Martes";
+                        dia[3] = "Miercoles";
+                        dia[4] = "Jueves";
+                        dia[5] = "Viernes";
+                        dia[6] = "Sabado";
+                        document.write("Hoy es: " + dia[d.getDay()]);
+                    </script>
+                    <script type="text/javascript">
+                        function startTime() {
+                            today = new Date();
+                            h = today.getHours();
+                            m = today.getMinutes();
+                            s = today.getSeconds();
+                            m = checkTime(m);
+                            s = checkTime(s);
+                            document.getElementById('reloj').innerHTML = h + ":" + m + ":" + s;
+                            t = setTimeout('startTime()', 500);
+                        }
+                        function checkTime(i) { if (i < 10) { i = "0" + i; } return i; }
+                        window.onload = function () { startTime(); }
+                    </script>
+                    <div id="reloj" style="font-size:15px;"></div>
+                    </script>
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <nav>
+        <ul>
+            <li class="nav-item dropdown w-25">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <b>Categorias</b>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item border" href="#">FUTBOL</a>
+                    <a class="dropdown-item border" href="#">BASQUET</a>
+                    <a class="dropdown-item border" href="#">TENIS</a>
+                    <a class="dropdown-item border" href="#">AUTOMOVILISMO</a>
+                    <a class="dropdown-item border" href="#">TENIS</a>
+                    <a class="dropdown-item border" href="#">HOCKEY</a>
+                    <a class="dropdown-item border" href="#">RUGBY</a>
+                    <a class="dropdown-item border" href="#">VOLEY</a>
+                    <a class="dropdown-item border" href="#">E-SPORTS</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-md-4 mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../images/deporte-index/tinelli-tapia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h4 class="card-title"><b>"LA IDEA ES QUE EL FÚTBOL VUELVA ENTRE EL 9 Y EL 16 DE
+                                        OCTUBRE",
+                                        SOSTUVO TINELLI</b></h4>
+                            </a>
+                            <p class="card-text">El Presidente de la Liga profesional de Fútbol (LPF), Marcelo Tinelli,
+                                anunció que la "idea es que el campeonato vuelva entre el 9 y 16 de octubre", en un
+                                intercambio con el público en su cuenta de Instagram.</p>
+                            <a href="#" class="card-link btn btn-secondary">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../images/deporte-index/aguirre-tc.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h4 class="card-title"><b>AGUIRRE GANO EN SAN NICOLAS Y TREPO A LA CIMA DEL CAMPEONATO
+                                    </b></h4>
+                            </a>
+                            <p class="card-text">Aguirre, el representante del JP Carrera, retuvo la primera posición en
+                                la largada de la prueba con autoridad ante Gastón Mazzacane, el piloto del Coiro Dole
+                                Racing. Esa fue la primera señal que exhibió el claro potencial del arrecifeño.</p>
+                            <a href="#" class="card-link btn btn-secondary">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../images/deporte-index/machi-gonzalez.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h4 class="card-title"><b>MACHI GONZALEZ DEBUTO CON VICTORIA EN EL US OPEN</b></h4>
+                            </a>
+                            <p class="card-text">El tenista serrano Máximo González, en pareja con el italiano Simone
+                                Bolelli, debutó este miércoles en el US Open con una victoria sobre la dupla formada por
+                                el mexicano Santiago González y el inglés Ken Skupski por 6-4 y 6-3.</p>
+                            <a href="#" class="card-link btn btn-secondary">Leer mas</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container f-dos">
+            <div class="row mt-4 border">
+                <div class="col-6 col-md-12">
+                    <h5 class="titulo-deporte">BASQUET</h5>
+                    <span class="letra-fecha">20-9-20 09:18</span>
+                    <hr>
+                    <h2 class="noticia-deporte-central"><b>Un finde a pura NBA</b></h2>
+                    <img src="../images/deportes-basquet/lebron2.jpg" class="col-md-12">
+                </div>
+                <div class="col-12 col-md-12 px-none  w-100">
+                    <p class="parrafo-foto">El festejo de LeBron James y Davis</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-12 mt-2 p-2">
+                <p class="letra-gde">Entre Ceja y Ceja... Con un triple de <a href="#"><b>Anthony Davis</b></a> cuando
+                    no quedaba tiempo
+                    reglamentario, <a href="#"><b>Los
+                            Angeles Lakers</b></a> derrotaron a los <a href="#"><b>Denver Nuggets</b></a> por 105-103 y
+                    se pusieron 2-0 en la final de la
+                    Conferencia Oeste de la NBA después de un final, una vez más, apasionante que desató un emocionante
+                    festejo de los comandados por <a href="#"><b>LeBron James</b></a>.
+                    Los Nuggets se habían dado el gusto de remontar una desventaja de 16 puntos (estaban 54-70) hasta
+                    ponerse 103-102 cuando faltaban 20 segundos para el cierre a partir de 11 puntos en cadena de Nikola
+                    Jokic.
+                </p>
+                <p>
+                    La cuestión es que con apenas 2,1 segundos por jugarse, los Lakers sacaron de un costado y le dieron
+                    la pelota a Davis quien, defendido justamente por el pivote serbio, convirtiera el triple de la
+                    victoria. Así, la Ceja cerró un partidazo con 31 puntos y nueve rebotes.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="../images/deportes-basquet/nuggets.jpg">
+                        <p class="parrafo-foto">El esfuerzo de Jokic no alcanzo</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h5 class="centrar"><u>Boston descuenta ante Miami</u></h5>
+                        <p class="letra-gde">De la mano de sus jóvenes figuras <a href="#"><b>Jayson Tatum</b></a> (25
+                            puntos) y <a href="#"><b>Jaylen Brown</b></a> (26), los Boston
+                            Celtics derrotaron este sábado por 117 a 106 a los Miami Heat y redujeron la desventaja a
+                            2-1 en la final de la conferencia Este de la NBA. Después de acabar desquiciados y con
+                            discusiones internas en la derrota del jueves, este triunfo le dio un respiro a los Verdes
+                            al evitar una diferencia de 3-0 en contra, que ningún equipo ha remontado en la historia.
+                        </p>
+                        <img src="../images/deportes-basquet/celtics.jpg">
+                        <p class="parrafo-foto">Decisivo triunfazo de los Boston Celtics ante los Heat en el juego 3 de
+                            la final de la Conferencia Este de la NBA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+
+        <div class="container f-dos mt-4">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <h5 class="titulo-deporte">FUTBOL</h5>
+                    <span class="letra-fecha f-dos">23-9-20 08:22</span>
+                    <hr>
+                    <h2 class="noticia-deporte-central"><b>Novedades en el Mundo Futbol</b></h2>
+
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="10000">
+                                <img src="../images/deportes-futbol/suarez.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="#">
+                                        <h5>El uruguayo agarró sus pertenencias y, muy emocionado, se fue del club. Su
+                                            nuevo destino será el Atlético Madrid del Cholo Simeone.
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="../images/deportes-futbol/racing.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="#">
+                                        <h5>La Academia buscará un triunfo en la capital peruana para empezar a
+                                            encarrilar el paso a los octavos de final de la Copa Libertadores. Acá, toda
+                                            la data del partido.
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/deportes-futbol/river2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="#">
+                                        <h5>Además de ser su goleada más amplia de visitante en copas
+                                            internacionales, el 6-0 en Perú estableció una nueva marca
+                                            histórica en la Libertadores.
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/deportes-futbol/salvio.webp" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="#">
+                                        <h5>El Toto es el jugador del momento en Boca: tiene una racha goleadora que
+                                            cualquier 9 envidiaría y, ante los sondeos de Europa, él y el club ya
+                                            marcaron postura. Ah, de yapa, Scaloni lo citará para jugar en la
+                                            Bombonera...
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <span class="letra-fecha f-dos">21-9-20 12:36</span>
+            <div class="col-12 col-md-12">
+                <h5 class="centrar mt-4">“Cruzaba los dedos para que Messi se quedase”</h5>
+                <img src="../images/deportes-futbol/messi.jpg" class="mx-auto">
+                <p class="parrafo-foto">Sergi Roberto, compañero de Leo en el Barcelona, dijo que no se imaginaba al
+                    equipo sin el diez. Con caras nuevas, los catalanes volvieron a entrenar este miércoles y la vuelta
+                    a La Liga está cada vez más cerca...</p>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="letra-gde">Ya no hay temor en Barcelona de perder a <a
+                            href="https://en.wikipedia.org/wiki/Lionel_Messi"><b>Lionel Messi</b></a>. En todo caso, estarán
+                        pensando en cómo
+                        hacer para convencerlo de una renovación el año próximo. Confirmada su presencia en el equipo
+                        Culé por una temporada más, la ilusión de los catalanes vuelve a encontrar en Leo a un
+                        abanderado, reconocido por sus propios compañeros.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p><b><i>"Cruzaba los dedos para que Messi se quedase"</i></b>, señaló este miércoles <a
+                            href="#"><b>Sergi Roberto</b></a>,
+                        compañero del
+                        diez en el Barsa, que se entrenó en la Ciudad Deportiva pensando en el duelo contra Villarreal
+                        del domingo, día en el que volverá a competir por La Liga -se había pospuesto la fecha por su
+                        participación en Champions-.
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 mt-none">
+                    <p><b><i>"No podía ser verdad que Leo no continuase con nosotros. Es nuestro capitán, es el mejor
+                                jugador que
+                                ha tenido el Barsa y en la historia del fútbol, y por tanto no me imaginaba un Barsa sin
+                                Leo"</i></b>,
+                        continuó diciendo el lateral derecho sobre Messi en una entrevista con RAC1, y admitió que
+                        <b><i>"estando
+                                al nivel de siempre, es normal que pueda pensar en buscar otra experiencia".</i></b>
+                        Lo cierto es que el mundo fútbol verá al astro argentino, al menos, una temporada más con la
+                        camiseta del Barcelona. Es probable que sea sin su socio en la cancha y amigo <a
+                            href="#"><b>Luis Suárez</b></a>: al no figurar dentro de las prioridades del DT Ronald
+                        Koeman, el uruguayo está a punto de pasar al Atlético Madrid del Cholo Simeone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+
+    <footer class="ewk_footer fixed-bottom mt-4 row">
+        <div class="col-6 col-md-10">
+            <a href="../html/index.html"><i class="icon-home"></i></a>
+            <a href="http://twitter.com/zon_dottavio"><i class="icon-twitter"></i></a>
+            <a href="http://instagram.com/zondottavio"><i class="icon-instagram"></i></a>
+            <a href="#"><i class="icon-mail"></i></a>
+        </div>
+        <div class="col-6 col-md-2">Derechos reservados 2020</div>
+    </footer>
+
+
+    <script src="../externo/bootstrap/js/jquery.js"></script>
+    <script src="../externo/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

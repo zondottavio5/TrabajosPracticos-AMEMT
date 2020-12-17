@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../images/iconos/css/fontello.css">
+    <link rel="stylesheet" href="../externo/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/banner.css">
+</head>
+
+<body>
+    <header>
+        <nav class="ewk_navbar navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../html/index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/deportes.html">Deportes</a>
+                    </li>
+                    <a class="navbar-brand" href="../html/index.html"><img src="../images/el-portal.jpg"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/entretenimiento.html">Entretenimiento</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../html/mundo.html">Mundo</a>
+                    </li>
+                </ul>
+                <span class="navbar-text ewk_hora col-3">
+                    <div id="reloj">
+                    </div>
+                </span>
+
+            </div>
+        </nav>
+    </header>
+    <h1 class="font-weight-bold text-center">Noticias</h1>
+    <table id="cont">
+        <tbody id="tbody-tabla"></tbody>
+    </table>
+
+    <!-- Button trigger modal -->
+    <button id="btn-add" data-toggle="modal" data-target="#staticBackdrop">Agregar fila</button>
+
+          <!-- Overlay -->
+          <div id="overlay" class="overlay display-none">
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" id="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="cuerpo-modal">
+
+                </div>
+                <div class="modal-footer" id="pie-modal">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="../externo\bootstrap/js/reloj.js "></script>
+    <script src="../externo\bootstrap/js/jquery.js"></script>
+    <script src="../externo\bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="../externo\bootstrap/js/tabla.js"></script>
+</body>
+
+
+</body>
+
+</html>

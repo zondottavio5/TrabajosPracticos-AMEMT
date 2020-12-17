@@ -1,0 +1,56 @@
+.ewk_cont_banner {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/fondo.jpg");
+}
+
+.ewk_sobra {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: auto;
+}
+
+.ewk_sobra hr{
+    border-top: 3px solid white;
+}
+
+.ewk_sobra h1{
+    font-size: 5px;
+    margin-bottom: 10px;
+}
+
+.ewk_sobra p{
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+.ewk_cont_banner_link {
+    margin: 15px;
+    position: relative;
+}
+
+.ewk_cont_banner_link a{
+    display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.ewk_cont_banner_link a:hover{
+    background: white;
+    color: black;
+}
